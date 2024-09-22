@@ -5,7 +5,7 @@ using namespace sf;
 
 class Player {
 	const int START_SPEED = 200;
-	const int START_HEALTH = 100;
+	const int START_HEALTH = 1000;
 
 	Vector2f m_Position; //wheres the player
 

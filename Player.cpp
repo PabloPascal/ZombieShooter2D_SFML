@@ -1,5 +1,6 @@
 #include "Player.h"
 #include <iostream>
+#include "TextureHolder.h"
 
 Player::Player() {
 	m_Speed = START_SPEED;
@@ -8,7 +9,7 @@ Player::Player() {
 
 	m_Image.loadFromFile("graphics/player.png");
 	m_Image.createMaskFromColor(Color::White);
-	m_Texture.loadFromImage(m_Image);
+	m_Texture = TextureHolder::GetTexture("graphics/player.png");
 	m_Sprite.setTexture(m_Texture);
 	
 	//m_Sprite.setOrigin(25, 25);
