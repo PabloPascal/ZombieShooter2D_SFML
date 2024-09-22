@@ -148,7 +148,7 @@ void Player::update(float elapsedTime, Vector2i mousePosition)
 	}
 
 	m_Sprite.setPosition(m_Position);
-	std::cout << m_Sprite.getPosition().y << std::endl;
+	
 	// Keep the player in the arena
 
 	if (m_Position.x > m_Arena.width - m_TileSize)

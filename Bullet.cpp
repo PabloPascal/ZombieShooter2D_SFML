@@ -62,7 +62,7 @@ bool Bullet::isInFlight()
 
 FloatRect Bullet::getPosition()
 {
-	return m_BulletShape.getLocalBounds();
+	return m_BulletShape.getGlobalBounds();
 }
 
 
