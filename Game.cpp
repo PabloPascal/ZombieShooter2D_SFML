@@ -1,10 +1,12 @@
 #include <SFML/Graphics.hpp>
+#include <SFML/Audio.hpp>
 #include "Player.h"
 #include "ZombieArena.h"
 #include "TextureHolder.h"
 #include "Bullet.h"
 #include "Pickup.h"
 #include <sstream>
+#include <fstream>
 #include <iostream>
 
 using namespace sf;
@@ -143,6 +145,13 @@ int main() {
 	scoreText.setFillColor(Color::White);
 	scoreText.setPosition(20, 0);
 
+	//сохраняем данные о игре в файл
+	std::fstream fileInput("gameData/score.txt");
+	if (fileInput.is_open()) {
+		fileInput >> hiscore;
+		fileInput.close();
+	}
+
 	// Hi Score
 	Text hiScoreText;
 	hiScoreText.setFont(font);
@@ -181,6 +190,49 @@ int main() {
 	// как часто мы должны обновлять иконки
 	int fpsMeasurementFrameInterval = 1000;
 
+	// подгрузка звука удара
+	SoundBuffer hitBuffer;
+	hitBuffer.loadFromFile("sound/hit.wav");
+	Sound hit;
+	hit.setBuffer(hitBuffer);
+
+	// подгрузка звука смерти
+	SoundBuffer splatBuffer;
+	splatBuffer.loadFromFile("sound/splat.wav");
+	Sound splat;
+	splat.setBuffer(splatBuffer);
+
+	// подгрузка звука выстрела
+	SoundBuffer shootBuffer;
+	shootBuffer.loadFromFile("sound/shoot.wav");
+	Sound shoot;
+	shoot.setBuffer(shootBuffer);
+
+	// полгрузка звука перезарядки
+	SoundBuffer reloadBuffer;
+	reloadBuffer.loadFromFile("sound/reload.wav");
+	Sound reload;
+	reload.setBuffer(reloadBuffer);
+
+	// подгрузка звука проигрыша
+	SoundBuffer reloadFailedBuffer;
+	reloadFailedBuffer.loadFromFile("sound/reload_failed.wav");
+	Sound reloadFailed;
+	reloadFailed.setBuffer(reloadFailedBuffer);
+
+	// подгрузка звука улучшения
+	SoundBuffer powerupBuffer;
+	powerupBuffer.loadFromFile("sound/powerup.wav");
+	Sound powerup;
+	powerup.setBuffer(powerupBuffer);
+
+	// подгрузка звука поднятия предмета
+	SoundBuffer pickupBuffer;
+	pickupBuffer.loadFromFile("sound/pickup.wav");
+	Sound pickup;
+	pickup.setBuffer(pickupBuffer);
+
+
 	while (window.isOpen()) {
 		
 		Event event;
@@ -206,6 +258,16 @@ int main() {
 
 				else if (event.key.code == Keyboard::Return && state == State::GAME_OVER) {
 					state = State::LEVELING_UP;
+					wave = 0;
+					score = 0;
+					// подгрузка потронов и оружия к новой игре
+					currentBullet = 0;
+					bulletsSpare = 24;
+					bulletsInClip = 6;
+					clipSize = 6;
+					fireRate = 1;
+					// перезагрузка информации о игре
+					player.resetPlayerStats();
 				}
 
 				if (state == State::PLAYING) {
@@ -218,16 +280,19 @@ int main() {
 							// Plenty of bullets. Reload.
 							bulletsInClip = clipSize;
 							bulletsSpare -= clipSize;
+							reload.play();
 						}
 						else if (bulletsSpare > 0)
 						{
 							// Only few bullets left
 							bulletsInClip = bulletsSpare;
 							bulletsSpare = 0;
+							reload.play();
 						}
 						else
 						{
-							// More here soon?!
+							//что то тут будет, мб....
+							reloadFailed.play();
 						}
 					}
 
@@ -294,6 +359,7 @@ int main() {
 						currentBullet = 0;
 					}
 					lastPressed = gameTimeTotal;
+					shoot.play();
 					bulletsInClip--;
 				}
 			}// End fire a bullet
@@ -301,29 +367,44 @@ int main() {
 
 		}//end of WASD keys
 
-
+		//прогрузка уровня
 		if (state == State::LEVELING_UP) {
 
 			if (event.key.code == Keyboard::Num1) {
+				
+				fireRate++;
 				state == State::PLAYING;
 			}
 			if (event.key.code == Keyboard::Num2) {
+				clipSize += clipSize;
 				state == State::PLAYING;
 			}
 			if (event.key.code == Keyboard::Num3) {
+				player.upgradeHealth();
 				state == State::PLAYING;
 			}
 			if (event.key.code == Keyboard::Num4) {
+				player.upgradeSpeed();
 				state == State::PLAYING;
+			}
+			if (event.key.code == Keyboard::Num5){
+				healthPickup.upgrade();
+				state = State::PLAYING;
+			}
+			if (event.key.code == Keyboard::Num6){
+				ammoPickup.upgrade();
+				state = State::PLAYING;
 			}
 			if (Keyboard::isKeyPressed(Keyboard::X)) {
 				state = State::PLAYING;
 			}
 
 			if (state == State::PLAYING) {
-
-				arena.width = 500;
-				arena.height = 500;
+				//волны
+				wave++;
+				//расширение арены
+				arena.width = 500*wave;
+				arena.height = 500*wave;
 				arena.left = 0;
 				arena.top = 0;
 
@@ -336,12 +417,15 @@ int main() {
 
 
 				//создаем орду зомби
-				numZombies = 10;
+				numZombies = 5*wave;
 
 				// удаляем предыдущую выделенную память (если она есть)
 				delete[] zombies;
 				zombies = createHorde(numZombies, arena);
 				numZombiesAlive = numZombies;
+
+
+				powerup.play();
 
 				clock.restart();
 			}
@@ -412,6 +496,7 @@ int main() {
 								}
 
 							}
+							splat.play();
 						}
 
 					}
@@ -424,13 +509,18 @@ int main() {
 				if (player.getPosition().intersects(zombies[i].getPosition()) && zombies[i].isAlive()) {
 
 					if (player.hit(gameTimeTotal)) {
-
+						hit.play();
 					}
 					if (player.getHealth() <= 0) {
 						state = State::GAME_OVER;
+
+						std::fstream fileOutput("gameData/score.txt");
+						fileOutput << hiscore;
+						fileOutput.close();
+
 					}
 
-
+					
 				}
 
 			}
@@ -439,35 +529,41 @@ int main() {
 			if (player.getPosition().intersects(ammoPickup.getPosition()) && ammoPickup.isSpawned()) {
 
 				bulletsSpare += ammoPickup.gotIt();
-				
+				//звук поднятия предмета
+				pickup.play();
 			}
 
-			// size up the health bar
+			// размер плашки со здоровьем
 			healthBar.setSize(Vector2f(player.getHealth() * 3, 50));
-			// Increment the number of frames since the previous update
+
 			framesSinceLastHUDUpdate++;
-			// re-calculate every fpsMeasurementFrameInterval frames
+
+			
 			if (framesSinceLastHUDUpdate > fpsMeasurementFrameInterval)
 			{
-				// Update game HUD text
+				// обновление текста на экране
 				std::stringstream ssAmmo;
 				std::stringstream ssScore;
 				std::stringstream ssHiScore;
 				std::stringstream ssWave;
 				std::stringstream ssZombiesAlive;
-				// Update the ammo text
+
+				//обновление текста патронов
 				ssAmmo << bulletsInClip << "/" << bulletsSpare;
 				ammoText.setString(ssAmmo.str());
-				// Update the score text
+
+				// обновление текста текущего рекорда
 				ssScore << "Score:" << score;
 				scoreText.setString(ssScore.str());
-				// Update the high score text
+
+				// обновление текста рекорда
 				ssHiScore << "Hi Score:" << hiscore;
 				hiScoreText.setString(ssHiScore.str());
 				// Update the wave
 				ssWave << "Wave:" << wave;
 				waveNumberText.setString(ssWave.str());
-				// Update the high score text
+
+				//обновление количества оставшихся зомби
 				ssZombiesAlive << "Zombies:" << numZombiesAlive;
 				zombiesRemainingText.setString(ssZombiesAlive.str());
 				framesSinceLastHUDUpdate = 0;

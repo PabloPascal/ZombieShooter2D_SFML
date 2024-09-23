@@ -1,2 +1,33 @@
 ﻿  Bullet.cpp
+  Game.cpp
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(24,44): warning C4244: =: преобразование "unsigned int" в "T", возможна потеря данных
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(24,44): warning C4244:         with
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(24,44): warning C4244:         [
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(24,44): warning C4244:             T=float
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(24,44): warning C4244:         ]
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(25,44): warning C4244: =: преобразование "unsigned int" в "T", возможна потеря данных
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(25,44): warning C4244:         with
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(25,44): warning C4244:         [
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(25,44): warning C4244:             T=float
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(25,44): warning C4244:         ]
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(28,56): warning C4244: аргумент: преобразование "T" в "unsigned int", возможна потеря данных
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(28,56): warning C4244:         with
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(28,56): warning C4244:         [
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(28,56): warning C4244:             T=float
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(28,56): warning C4244:         ]
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(28,42): warning C4244: аргумент: преобразование "T" в "unsigned int", возможна потеря данных
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(28,42): warning C4244:         with
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(28,42): warning C4244:         [
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(28,42): warning C4244:             T=float
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(28,42): warning C4244:         ]
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(376,11): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(380,11): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(384,11): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(388,11): warning C4553: "==": результат выражения не используется; вы хотели использовать "="?
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(537,50): warning C4244: аргумент: преобразование "int" в "T", возможна потеря данных
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(537,50): warning C4244:         with
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(537,50): warning C4244:         [
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(537,50): warning C4244:             T=float
+C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(537,50): warning C4244:         ]
+  Создание кода...
   Zombie2Dshooter.vcxproj -> C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\x64\Debug\Zombie2Dshooter.exe
