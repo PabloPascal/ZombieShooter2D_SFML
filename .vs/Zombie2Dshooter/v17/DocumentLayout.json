@@ -3,12 +3,12 @@
   "WorkspaceRootPath": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\CreateBackground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|solutionrelative:CreateBackground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|solutionrelative:Game.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\CreateBackground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|solutionrelative:CreateBackground.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\TextureHolder.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -17,6 +17,14 @@
     {
       "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\TextureHolder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|solutionrelative:TextureHolder.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Zombie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|solutionrelative:Zombie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
+      "RelativeMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Zombie.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
@@ -39,14 +47,6 @@
       "RelativeMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|solutionrelative:Bullet.h||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Zombie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|solutionrelative:Zombie.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
-      "RelativeMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|solutionrelative:Player.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Pickup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}",
       "RelativeMoniker": "D:0:0:{324E068E-8724-4423-A0E5-9A0600BCAB55}|Zombie2Dshooter.vcxproj|solutionrelative:Pickup.cpp||{D0E1A5C6-B359-4E41-9B60-3365922C2A22}"
     },
@@ -66,24 +66,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 7,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 8,
-              "Title": "Bullet.h",
-              "DocumentMoniker": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Bullet.h",
-              "RelativeDocumentMoniker": "Bullet.h",
-              "ToolTip": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Bullet.h",
-              "RelativeToolTip": "Bullet.h",
-              "ViewState": "AQIAACUAAAAAAAAAAAAAADQAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-22T05:18:01.951Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
               "Title": "Player.h",
               "DocumentMoniker": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Player.h",
               "RelativeDocumentMoniker": "Player.h",
@@ -91,8 +78,7 @@
               "RelativeToolTip": "Player.h",
               "ViewState": "AQIAAF0AAAAAAAAAAAAAAAcAAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-30T06:51:28.36Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T06:51:28.36Z"
             },
             {
               "$type": "Document",
@@ -104,12 +90,11 @@
               "RelativeToolTip": "TextureHolder.h",
               "ViewState": "AQIAABAAAAAAAAAAAAAAABkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-20T16:20:03.714Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T16:20:03.714Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "Zombie.h",
               "DocumentMoniker": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Zombie.h",
               "RelativeDocumentMoniker": "Zombie.h",
@@ -117,25 +102,24 @@
               "RelativeToolTip": "Zombie.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-20T17:12:53.832Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T17:12:53.832Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "CreateBackground.cpp",
               "DocumentMoniker": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\CreateBackground.cpp",
               "RelativeDocumentMoniker": "CreateBackground.cpp",
               "ToolTip": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\CreateBackground.cpp",
               "RelativeToolTip": "CreateBackground.cpp",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACsAAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAsAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-30T13:44:54.321Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 4,
               "Title": "Zombie.cpp",
               "DocumentMoniker": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Zombie.cpp",
               "RelativeDocumentMoniker": "Zombie.cpp",
@@ -143,12 +127,11 @@
               "RelativeToolTip": "Zombie.cpp",
               "ViewState": "AQIAAGgAAAAAAAAAAAAAAEgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-20T17:44:20.07Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T17:44:20.07Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 7,
               "Title": "ZombieArena.h",
               "DocumentMoniker": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\ZombieArena.h",
               "RelativeDocumentMoniker": "ZombieArena.h",
@@ -156,31 +139,29 @@
               "RelativeToolTip": "ZombieArena.h",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-08-30T13:42:41.041Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T13:42:41.041Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 5,
               "Title": "Player.cpp",
               "DocumentMoniker": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Player.cpp",
               "RelativeDocumentMoniker": "Player.cpp",
               "ToolTip": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Player.cpp",
               "RelativeToolTip": "Player.cpp",
-              "ViewState": "AQIAALsAAAAAAAAAAAAAAIMAAAANAAAA",
+              "ViewState": "AQIAAKYAAAAAAAAAAAAAAIMAAAANAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-08-30T07:13:37.515Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-08-30T07:13:37.515Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "Game.cpp",
               "DocumentMoniker": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Game.cpp",
               "RelativeDocumentMoniker": "Game.cpp",
               "ToolTip": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Game.cpp",
               "RelativeToolTip": "Game.cpp",
-              "ViewState": "AQIAADUAAAAAAAAAAAAAAJoBAAAMAAAA",
+              "ViewState": "AQIAAK0BAAAAAAAAAAAAALcBAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
               "WhenOpened": "2024-08-30T06:16:35.838Z",
               "EditorCaption": ""
@@ -193,14 +174,25 @@
               "RelativeDocumentMoniker": "TextureHolder.cpp",
               "ToolTip": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\TextureHolder.cpp",
               "RelativeToolTip": "TextureHolder.cpp",
-              "ViewState": "AQIAABEAAAAAAAAAAAAAAAsAAAAVAAAA",
+              "ViewState": "AQIAAAsAAAAAAAAAAAAAABwAAAARAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-20T16:36:01.538Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T16:36:01.538Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 10,
+              "Title": "Bullet.h",
+              "DocumentMoniker": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Bullet.h",
+              "RelativeDocumentMoniker": "Bullet.h",
+              "ToolTip": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Bullet.h",
+              "RelativeToolTip": "Bullet.h",
+              "ViewState": "AQIAACUAAAAAAAAAAAAAADQAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
+              "WhenOpened": "2024-09-22T05:18:01.951Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "Pickup.h",
               "DocumentMoniker": "C:\\Users\\zycov\\OneDrive\\Desktop\\c\u002B\u002B files\\projectcs mcvs\\Zombie2Dshooter\\Pickup.h",
               "RelativeDocumentMoniker": "Pickup.h",
@@ -208,8 +200,7 @@
               "RelativeToolTip": "Pickup.h",
               "ViewState": "AQIAADYAAAAAAAAAAAAAABkAAAAbAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000680|",
-              "WhenOpened": "2024-09-22T09:05:35.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T09:05:35.016Z"
             },
             {
               "$type": "Document",
@@ -221,8 +212,7 @@
               "RelativeToolTip": "Pickup.cpp",
               "ViewState": "AQIAAGEAAAAAAAAAAAAAAAsAAAACAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-22T09:21:37.804Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T09:21:37.804Z"
             },
             {
               "$type": "Document",
@@ -234,8 +224,7 @@
               "RelativeToolTip": "CreateHorde.cpp",
               "ViewState": "AQIAACcAAAAAAAAAAAAAAAcAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-21T05:59:16.8Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-21T05:59:16.8Z"
             },
             {
               "$type": "Document",
@@ -247,8 +236,7 @@
               "RelativeToolTip": "Bullet.cpp",
               "ViewState": "AQIAAFUAAAAAAAAAAAAAAFsAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000677|",
-              "WhenOpened": "2024-09-22T05:28:55.667Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-22T05:28:55.667Z"
             }
           ]
         }

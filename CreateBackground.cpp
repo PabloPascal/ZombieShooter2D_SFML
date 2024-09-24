@@ -1,4 +1,5 @@
 #include "ZombieArena.h"
+#include <iostream>
 
 int createBackground(VertexArray& rVA, IntRect arena) {
 	const int TILE_SIZE = 50;
@@ -7,6 +8,8 @@ int createBackground(VertexArray& rVA, IntRect arena) {
 
 	int worldWidth = arena.width / TILE_SIZE;
 	int worldHeight = arena.height / TILE_SIZE;
+
+	std::cout << "WorldWidth: " <<worldWidth << std::endl;
 
 	rVA.setPrimitiveType(Quads);
 

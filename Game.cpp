@@ -115,7 +115,7 @@ int main() {
 	gameOverText.setPosition(250, 850);
 	gameOverText.setString("Press Enter to play");
 
-	// LEVELING up
+	// след уровень
 	Text levelUpText;
 	levelUpText.setFont(font);
 	levelUpText.setCharacterSize(80);
@@ -436,8 +436,8 @@ int main() {
 		if (state == State::PLAYING) {
 
 
-			arena.width = 500;
-			arena.height = 500;
+			arena.width = 500 * wave;
+			arena.height = 500 * wave;
 			arena.left = 0;
 			arena.top = 0;
 
@@ -618,7 +618,7 @@ int main() {
 			//отрисовка прицела
 			window.draw(spriteCrosshair);
 
-			// Switch to the HUD view
+			//смена иконок
 			window.setView(hudView);
 			// отрисовка иконок
 			window.draw(spriteAmmoIcon);

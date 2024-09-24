@@ -1,5 +1,4 @@
-﻿  Bullet.cpp
-  Game.cpp
+﻿  Game.cpp
 C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(24,44): warning C4244: =: преобразование "unsigned int" в "T", возможна потеря данных
 C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(24,44): warning C4244:         with
 C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(24,44): warning C4244:         [
@@ -29,5 +28,4 @@ C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cp
 C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(537,50): warning C4244:         [
 C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(537,50): warning C4244:             T=float
 C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\Game.cpp(537,50): warning C4244:         ]
-  Создание кода...
   Zombie2Dshooter.vcxproj -> C:\Users\zycov\OneDrive\Desktop\c++ files\projectcs mcvs\Zombie2Dshooter\x64\Debug\Zombie2Dshooter.exe
